@@ -1,10 +1,6 @@
-# hono-server-cache-middleware
-
-`hono-server-cache-middleware` makes it easier to implement server side caching and invalidation in your [hono](https://hono.dev/) application. It is different from the [cache middleware](https://hono.dev/docs/middleware/builtin/cache) provided by hono.
-
 # hono-server-cache
 
-A lightweight and flexible server-side caching middleware for Hono applications. This package provides an easy way to implement response caching and cache invalidation strategies.
+`hono-server-cache-middleware` makes it easier to implement server side caching and invalidation in your [hono](https://hono.dev/) application. It is different from the [cache middleware](https://hono.dev/docs/middleware/builtin/cache) provided by hono.
 
 ## Features
 
