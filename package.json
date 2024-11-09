@@ -1,18 +1,25 @@
 {
     "name": "hono-server-cache",
-    "version": "0.0.0",
-    "description": "",
+    "version": "0.1.0",
+    "private": false,
+    "description": "A flexible server-side caching middleware for Hono applications.",
     "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "dev": "tsx src/index.ts",
         "build": "tsup src/index.ts --minify --dts"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "hono",
+        "middleware",
+        "server",
+        "caching"
+    ],
+    "author": "Samyabrata Maji",
+    "license": "MIT",
     "devDependencies": {
+        "@changesets/cli": "^2.27.9",
         "@types/node": "^22.9.0",
-        "changesets": "^1.0.2",
         "tsup": "^8.3.5",
         "tsx": "^4.19.2",
         "typescript": "^5.6.3",
